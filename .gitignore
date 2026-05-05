@@ -1,0 +1,4 @@
+# 這是正確的內容：只寫檔名
+.DS_Store
+node_modules/
+*.log
