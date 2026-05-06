@@ -1,0 +1,26 @@
+h1{
+    color:black;
+    front-size: 13px;
+}
+span{
+    color: #666;
+    font-size: 13px;
+}
+#104{
+  max-width: 100%;  /* 寬度最大就是跟老爸一樣大，不能超出 */
+  height: auto;     /* 高度自動按比例縮放，才不會變形 */
+}
+#bighead{
+  margin-top: -50px; /* 往上移一點，讓它跟老爸的頭重疊 */
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;      /* 關鍵：把正方形變圓形 */
+  object-fit: cover;       /* 確保照片不變形 */
+  border: 4px solid white; /* 白邊框 */
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1); /* 淡淡的陰影，讓它浮起來 */
+}
+.tags{
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+}
